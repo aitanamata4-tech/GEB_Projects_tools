@@ -45,6 +45,7 @@ The proposed tasks for this first session are:
 ![rdk](././Images/3D_Orientation/3D_Orientation_final.png)
 - Run the `Receive_data_RPY_IMU_world.py` python program and review the corresponding orientation obtained in the 3D object selectes in roboDK. Take care about the proper Endo-module corresponding to your group!
 ![python](././Images/3D_Orientation/VScode_python.png)
+- Change the 3D object orientation to "surgical_needle". What you have to change in the python code?
 
 - Is the orientation correct? why or why not?
 - Make the necessary corrections in the code and verify the correct orientation in roboDK virtual environment.
