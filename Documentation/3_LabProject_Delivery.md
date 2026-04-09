@@ -4,6 +4,9 @@
 #### Introduction
 This seminar consisted on understanding and applying the GitHub app in our projects. The main goal was to prepare the development environment in VS Code, program the ESP32 using PlatformIO, and synchronize physical movements with a 3D virtual model.
 
+#### What have we done?
+In this project, we connected an ESP32 Endo-module to a local network and used PlatformIO to upload the code that reads 3D orientation from an IMU sensor. This sensor tracks movement through Roll, Pitch and Yaw, which we then sent to a computer. By using RoboDK and a code in Python, we were able to make a virtual plane move at the same time that the physical sensor. We verified the accuracy by testing each axis of rotation and even learned how to emulate the hardware using a slider-based script. Finally, we modified the Python code to control a surgical needle, proving that this setup can be used for real-world movements with digital simulations for future engineering or medical robotics projects.
+
 #### Laboratory Questions
 - Is the plane 3D object in RoboDK moving properly?
 
