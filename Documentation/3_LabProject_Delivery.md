@@ -5,7 +5,16 @@
 This seminar consisted on understanding and applying the GitHub app in our projects. The main goal was to prepare the development environment in VS Code, program the ESP32 using PlatformIO, and synchronize physical movements with a 3D virtual model.
 
 #### What have we done?
-In this project, we connected an ESP32 Endo-module to a local network and used PlatformIO to upload the code that reads 3D orientation from an IMU sensor. This sensor tracks movement through Roll, Pitch and Yaw, which we then sent to a computer. By using RoboDK and a code in Python, we were able to make a virtual plane move at the same time that the physical sensor. We verified the accuracy by testing each axis of rotation and even learned how to emulate the hardware using a slider-based script. Finally, we modified the Python code to control a surgical needle, proving that this setup can be used for real-world movements with digital simulations for future engineering or medical robotics projects.
+In this project, we connected an ESP32 Endo-module to a local network and used PlatformIO to upload the code that reads 3D orientation from an IMU sensor. By using RoboDK and a code in Python, we were able to make a virtual plane move at the same time that the physical sensor. We verified the accuracy by testing each axis of rotation and even learned how to emulate the hardware using a slider-based script. 
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/4ee034f0-f77d-4f07-b3a3-62a88fab3ab7" />
+
+Once the communication was established, we moved on to a medical robotics application. We modified the Python code to change the target object, allowing us to control the orientation of a surgical needle instead of the plane. This step was crucial to show how the system can be adapted for surgical simulations.
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/82d57c00-a90a-452b-958a-442a6411902c" />
+
+At the end of the project, we focused on the precise verification of the rotation. By monitoring the RPY (Roll, Pitch, and Yaw) data in the Python terminal and checking the object details in RoboDK, we confirmed that the axes rotated correctly. This final verification ensured that the virtual movement matched the real-world angles exactly.
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/2661066e-21c8-49f1-81a8-822b32675311" />
+
+This workflow successfully demonstrated how to bridge hardware sensors with digital twins, providing a solid foundation for future engineering and surgical robotics projects.
 
 #### Laboratory Questions
 - Is the plane 3D object in RoboDK moving properly?
